@@ -1,0 +1,532 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.2
+2 info using node@v22.14.0
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\clayc\OneDrive - Partner Chain\Documents\GitHub\FSD\.npmrc
+5 silly config load:file:C:\Users\clayc\.npmrc
+6 silly config load:file:C:\Users\clayc\OneDrive - Partner Chain\Documents\GitHub\FSD\%APPDATA%\npm\etc\npmrc
+7 verbose title npm install @radix-ui/react-slot react-day-picker lucide-react class-variance-authority clsx tailwind-merge
+8 verbose argv "install" "@radix-ui/react-slot" "react-day-picker" "lucide-react" "class-variance-authority" "clsx" "tailwind-merge"
+9 verbose logfile logs-max:10 dir:C:\Users\clayc\OneDrive - Partner Chain\Documents\GitHub\FSD\%APPDATA%\npm-cache\_logs\2025-03-07T18_39_07_531Z-
+10 verbose logfile C:\Users\clayc\OneDrive - Partner Chain\Documents\GitHub\FSD\%APPDATA%\npm-cache\_logs\2025-03-07T18_39_07_531Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+13 verbose shrinkwrap failed to load node_modules/.package-lock.json out of date, updated: node_modules
+14 silly idealTree buildDeps
+15 silly fetch manifest geist@^1.3.1
+16 silly packumentCache full:https://registry.npmjs.org/geist cache-miss
+17 http fetch GET 200 https://registry.npmjs.org/geist 1032ms (cache miss)
+18 silly packumentCache full:https://registry.npmjs.org/geist set size:undefined disposed:false
+19 silly fetch manifest next@14.1.0
+20 silly packumentCache full:https://registry.npmjs.org/next cache-miss
+21 http fetch GET 200 https://registry.npmjs.org/next 874ms (cache updated)
+22 silly packumentCache full:https://registry.npmjs.org/next set size:undefined disposed:false
+23 silly fetch manifest @opentelemetry/api@^1.1.0
+24 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi cache-miss
+25 http fetch GET 200 https://registry.npmjs.org/@opentelemetry%2fapi 85ms (cache updated)
+26 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi set size:undefined disposed:false
+27 silly fetch manifest react@^18.3.1
+28 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+29 http fetch GET 200 https://registry.npmjs.org/react 176ms (cache updated)
+30 silly packumentCache full:https://registry.npmjs.org/react set size:undefined disposed:false
+31 silly fetch manifest react-dom@^18
+32 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+33 http fetch GET 200 https://registry.npmjs.org/react-dom 207ms (cache updated)
+34 silly packumentCache full:https://registry.npmjs.org/react-dom set size:undefined disposed:false
+35 silly fetch manifest sass@^1.3.0
+36 silly packumentCache full:https://registry.npmjs.org/sass cache-miss
+37 http fetch GET 200 https://registry.npmjs.org/sass 86ms (cache updated)
+38 silly packumentCache full:https://registry.npmjs.org/sass set size:undefined disposed:false
+39 silly fetch manifest @radix-ui/react-slot@*
+40 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-slot cache-miss
+41 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-slot 93ms (cache miss)
+42 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-slot set size:undefined disposed:false
+43 silly fetch manifest @types/react@^18
+44 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+45 http fetch GET 200 https://registry.npmjs.org/@types%2freact 122ms (cache updated)
+46 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:undefined disposed:false
+47 silly fetch manifest react-day-picker@*
+48 silly packumentCache full:https://registry.npmjs.org/react-day-picker cache-miss
+49 http fetch GET 200 https://registry.npmjs.org/react-day-picker 92ms (cache miss)
+50 silly packumentCache full:https://registry.npmjs.org/react-day-picker set size:undefined disposed:false
+51 silly fetch manifest lucide-react@*
+52 silly packumentCache full:https://registry.npmjs.org/lucide-react cache-miss
+53 http fetch GET 200 https://registry.npmjs.org/lucide-react 146ms (cache miss)
+54 silly packumentCache full:https://registry.npmjs.org/lucide-react set size:undefined disposed:false
+55 silly fetch manifest class-variance-authority@*
+56 silly packumentCache full:https://registry.npmjs.org/class-variance-authority cache-miss
+57 http fetch GET 200 https://registry.npmjs.org/class-variance-authority 61ms (cache miss)
+58 silly packumentCache full:https://registry.npmjs.org/class-variance-authority set size:undefined disposed:false
+59 silly fetch manifest clsx@*
+60 silly packumentCache full:https://registry.npmjs.org/clsx cache-miss
+61 http fetch GET 200 https://registry.npmjs.org/clsx 73ms (cache miss)
+62 silly packumentCache full:https://registry.npmjs.org/clsx set size:undefined disposed:false
+63 silly fetch manifest tailwind-merge@*
+64 silly packumentCache full:https://registry.npmjs.org/tailwind-merge cache-miss
+65 http fetch GET 200 https://registry.npmjs.org/tailwind-merge 106ms (cache miss)
+66 silly packumentCache full:https://registry.npmjs.org/tailwind-merge set size:undefined disposed:false
+67 silly placeDep ROOT @radix-ui/react-slot@1.1.2 OK for: photo-portfolio@0.1.0 want: *
+68 silly placeDep ROOT class-variance-authority@0.7.1 OK for: photo-portfolio@0.1.0 want: *
+69 silly placeDep ROOT clsx@2.1.1 OK for: photo-portfolio@0.1.0 want: *
+70 silly placeDep ROOT geist@1.3.1 OK for: photo-portfolio@0.1.0 want: ^1.3.1
+71 silly placeDep ROOT lucide-react@0.479.0 OK for: photo-portfolio@0.1.0 want: *
+72 silly placeDep ROOT react-day-picker@9.5.1 OK for: photo-portfolio@0.1.0 want: *
+73 silly placeDep ROOT tailwind-merge@3.0.2 OK for: photo-portfolio@0.1.0 want: *
+74 silly fetch manifest @radix-ui/react-compose-refs@1.1.1
+75 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-compose-refs cache-miss
+76 silly fetch manifest clsx@^2.1.1
+77 silly packumentCache full:https://registry.npmjs.org/clsx cache-miss
+78 silly fetch manifest @date-fns/tz@^1.2.0
+79 silly packumentCache full:https://registry.npmjs.org/@date-fns%2ftz cache-miss
+80 silly fetch manifest date-fns@^4.1.0
+81 silly packumentCache full:https://registry.npmjs.org/date-fns cache-miss
+82 silly fetch manifest date-fns-jalali@^4.1.0-0
+83 silly packumentCache full:https://registry.npmjs.org/date-fns-jalali cache-miss
+84 http cache https://registry.npmjs.org/clsx 14ms (cache hit)
+85 silly packumentCache full:https://registry.npmjs.org/clsx set size:42489 disposed:false
+86 http fetch GET 200 https://registry.npmjs.org/@radix-ui%2freact-compose-refs 88ms (cache miss)
+87 silly packumentCache full:https://registry.npmjs.org/@radix-ui%2freact-compose-refs set size:undefined disposed:false
+88 http fetch GET 200 https://registry.npmjs.org/date-fns-jalali 248ms (cache miss)
+89 silly packumentCache full:https://registry.npmjs.org/date-fns-jalali set size:undefined disposed:false
+90 http fetch GET 200 https://registry.npmjs.org/date-fns 296ms (cache miss)
+91 silly packumentCache full:https://registry.npmjs.org/date-fns set size:undefined disposed:false
+92 http fetch GET 200 https://registry.npmjs.org/@date-fns%2ftz 559ms (cache miss)
+93 silly packumentCache full:https://registry.npmjs.org/@date-fns%2ftz set size:undefined disposed:false
+94 silly fetch manifest @types/react@*
+95 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+96 http cache https://registry.npmjs.org/@types%2freact 21ms (cache hit)
+97 silly packumentCache full:https://registry.npmjs.org/@types%2freact set size:2300558 disposed:false
+98 silly fetch manifest react@^16.8 || ^17.0 || ^18.0 || ^19.0 || ^19.0.0-rc
+99 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+100 http cache https://registry.npmjs.org/react 31ms (cache hit)
+101 silly packumentCache full:https://registry.npmjs.org/react set size:5499753 disposed:false
+102 silly placeDep ROOT @radix-ui/react-compose-refs@1.1.1 OK for: @radix-ui/react-slot@1.1.2 want: 1.1.1
+103 silly placeDep ROOT @date-fns/tz@1.2.0 OK for: react-day-picker@9.5.1 want: ^1.2.0
+104 silly placeDep ROOT date-fns@4.1.0 OK for: react-day-picker@9.5.1 want: ^4.1.0
+105 silly placeDep ROOT date-fns-jalali@4.1.0-0 OK for: react-day-picker@9.5.1 want: ^4.1.0-0
+106 silly reify mark retired [
+106 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\photo-portfolio'
+106 silly reify ]
+107 silly reify mark retired [
+107 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\react'
+107 silly reify ]
+108 silly reify mark retired [
+108 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\geist'
+108 silly reify ]
+109 silly reify mark retired [
+109 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\next-themes'
+109 silly reify ]
+110 silly reify mark retired [
+110 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\autoprefixer',
+110 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\autoprefixer',
+110 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\autoprefixer.cmd',
+110 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\autoprefixer.ps1'
+110 silly reify ]
+111 silly reify mark retired [
+111 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\next',
+111 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\next',
+111 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\next.cmd',
+111 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\next.ps1'
+111 silly reify ]
+112 silly reify mark retired [
+112 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\react-dom'
+112 silly reify ]
+113 silly reify mark retired [
+113 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\postcss'
+113 silly reify ]
+114 silly reify mark retired [
+114 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\tailwindcss',
+114 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\tailwind',
+114 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\tailwind.cmd',
+114 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\tailwind.ps1',
+114 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\tailwindcss',
+114 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\tailwindcss.cmd',
+114 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\tailwindcss.ps1'
+114 silly reify ]
+115 silly reify mark retired [
+115 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\@types\\react'
+115 silly reify ]
+116 silly reify mark retired [
+116 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\@types\\react-dom'
+116 silly reify ]
+117 silly reify mark retired [
+117 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\@types\\node'
+117 silly reify ]
+118 silly reify mark retired [
+118 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\tailwindcss-animate'
+118 silly reify ]
+119 silly reify mark retired [
+119 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\typescript',
+119 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\tsc',
+119 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\tsc.cmd',
+119 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\tsc.ps1',
+119 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\tsserver',
+119 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\tsserver.cmd',
+119 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\tsserver.ps1'
+119 silly reify ]
+120 silly reify moves {
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\photo-portfolio': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.photo-portfolio-CQNqxuue',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\react': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.react-CEmcPEW7',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\geist': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.geist-tkd7B5oR',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\next-themes': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.next-themes-nlgca5op',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\autoprefixer': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.autoprefixer-6Jjnu2ph',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\autoprefixer': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\.autoprefixer-qceIY1Le',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\autoprefixer.cmd': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\.autoprefixer.cmd-vzXHLXJz',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\autoprefixer.ps1': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\.autoprefixer.ps1-XpQEUXBs',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\next': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.next-6BcRCKtO',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\next': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\.next-TqTXcwYQ',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\next.cmd': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\.next.cmd-z6v4PNF8',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\next.ps1': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\.next.ps1-h9AZq5qq',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\react-dom': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.react-dom-T0cyemtD',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\postcss': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.postcss-uLjMyThY',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\tailwindcss': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.tailwindcss-pzEddN64',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\tailwind': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\.tailwind-2PC5Ys7y',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\tailwind.cmd': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\.tailwind.cmd-aNcf9cCs',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\tailwind.ps1': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\.tailwind.ps1-QUpl8a6z',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\tailwindcss': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\.tailwindcss-oDU0KKK3',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\tailwindcss.cmd': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\.tailwindcss.cmd-QXC236Kt',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\tailwindcss.ps1': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\.tailwindcss.ps1-NbJpWuVk',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\@types\\react': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\@types\\.react-vpWCSVJJ',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\@types\\react-dom': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\@types\\.react-dom-rdbxZ5zi',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\@types\\node': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\@types\\.node-LWNcToW8',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\tailwindcss-animate': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.tailwindcss-animate-nxuNA5Nw',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\typescript': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.typescript-Aj17lzuz',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\tsc': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\.tsc-UnQNkK3Q',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\tsc.cmd': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\.tsc.cmd-dSAdzqcd',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\tsc.ps1': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\.tsc.ps1-n6CSR5hg',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\tsserver': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\.tsserver-r5CH4BAA',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\tsserver.cmd': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\.tsserver.cmd-XFgIc0aP',
+120 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\tsserver.ps1': 'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\.bin\\.tsserver.ps1-WngcgAoC'
+120 silly reify }
+121 silly audit bulk request {
+121 silly audit   'photo-portfolio': [ '0.1.0' ],
+121 silly audit   '@alloc/quick-lru': [ '5.2.0' ],
+121 silly audit   '@isaacs/cliui': [ '8.0.2' ],
+121 silly audit   '@jridgewell/gen-mapping': [ '0.3.8' ],
+121 silly audit   '@jridgewell/resolve-uri': [ '3.1.2' ],
+121 silly audit   '@jridgewell/set-array': [ '1.2.1' ],
+121 silly audit   '@jridgewell/sourcemap-codec': [ '1.5.0' ],
+121 silly audit   '@jridgewell/trace-mapping': [ '0.3.25' ],
+121 silly audit   '@next/env': [ '14.1.0' ],
+121 silly audit   '@next/swc-darwin-arm64': [ '14.1.0' ],
+121 silly audit   '@next/swc-darwin-x64': [ '14.1.0' ],
+121 silly audit   '@next/swc-linux-arm64-gnu': [ '14.1.0' ],
+121 silly audit   '@next/swc-linux-arm64-musl': [ '14.1.0' ],
+121 silly audit   '@next/swc-linux-x64-gnu': [ '14.1.0' ],
+121 silly audit   '@next/swc-linux-x64-musl': [ '14.1.0' ],
+121 silly audit   '@next/swc-win32-arm64-msvc': [ '14.1.0' ],
+121 silly audit   '@next/swc-win32-ia32-msvc': [ '14.1.0' ],
+121 silly audit   '@next/swc-win32-x64-msvc': [ '14.1.0' ],
+121 silly audit   '@nodelib/fs.scandir': [ '2.1.5' ],
+121 silly audit   '@nodelib/fs.stat': [ '2.0.5' ],
+121 silly audit   '@nodelib/fs.walk': [ '1.2.8' ],
+121 silly audit   '@pkgjs/parseargs': [ '0.11.0' ],
+121 silly audit   '@swc/helpers': [ '0.5.2' ],
+121 silly audit   '@types/node': [ '20.17.23' ],
+121 silly audit   '@types/prop-types': [ '15.7.14' ],
+121 silly audit   '@types/react': [ '18.3.18' ],
+121 silly audit   '@types/react-dom': [ '18.3.5' ],
+121 silly audit   'ansi-regex': [ '6.1.0', '5.0.1' ],
+121 silly audit   'ansi-styles': [ '6.2.1', '4.3.0' ],
+121 silly audit   'any-promise': [ '1.3.0' ],
+121 silly audit   anymatch: [ '3.1.3' ],
+121 silly audit   arg: [ '5.0.2' ],
+121 silly audit   autoprefixer: [ '10.4.20' ],
+121 silly audit   'balanced-match': [ '1.0.2' ],
+121 silly audit   'binary-extensions': [ '2.3.0' ],
+121 silly audit   'brace-expansion': [ '2.0.1' ],
+121 silly audit   braces: [ '3.0.3' ],
+121 silly audit   browserslist: [ '4.24.4' ],
+121 silly audit   busboy: [ '1.6.0' ],
+121 silly audit   'camelcase-css': [ '2.0.1' ],
+121 silly audit   'caniuse-lite': [ '1.0.30001702' ],
+121 silly audit   chokidar: [ '3.6.0' ],
+121 silly audit   'glob-parent': [ '5.1.2', '6.0.2' ],
+121 silly audit   'client-only': [ '0.0.1' ],
+121 silly audit   'color-convert': [ '2.0.1' ],
+121 silly audit   'color-name': [ '1.1.4' ],
+121 silly audit   commander: [ '4.1.1' ],
+121 silly audit   'cross-spawn': [ '7.0.6' ],
+121 silly audit   cssesc: [ '3.0.0' ],
+121 silly audit   csstype: [ '3.1.3' ],
+121 silly audit   didyoumean: [ '1.2.2' ],
+121 silly audit   dlv: [ '1.1.3' ],
+121 silly audit   eastasianwidth: [ '0.2.0' ],
+121 silly audit   'electron-to-chromium': [ '1.5.113' ],
+121 silly audit   'emoji-regex': [ '9.2.2', '8.0.0' ],
+121 silly audit   escalade: [ '3.2.0' ],
+121 silly audit   'fast-glob': [ '3.3.3' ],
+121 silly audit   fastq: [ '1.19.1' ],
+121 silly audit   'fill-range': [ '7.1.1' ],
+121 silly audit   'foreground-child': [ '3.3.1' ],
+121 silly audit   'fraction.js': [ '4.3.7' ],
+121 silly audit   fsevents: [ '2.3.3' ],
+121 silly audit   'function-bind': [ '1.1.2' ],
+121 silly audit   glob: [ '10.4.5' ],
+121 silly audit   'graceful-fs': [ '4.2.11' ],
+121 silly audit   hasown: [ '2.0.2' ],
+121 silly audit   'is-binary-path': [ '2.1.0' ],
+121 silly audit   'is-core-module': [ '2.16.1' ],
+121 silly audit   'is-extglob': [ '2.1.1' ],
+121 silly audit   'is-fullwidth-code-point': [ '3.0.0' ],
+121 silly audit   'is-glob': [ '4.0.3' ],
+121 silly audit   'is-number': [ '7.0.0' ],
+121 silly audit   isexe: [ '2.0.0' ],
+121 silly audit   jackspeak: [ '3.4.3' ],
+121 silly audit   jiti: [ '1.21.7' ],
+121 silly audit   'js-tokens': [ '4.0.0' ],
+121 silly audit   lilconfig: [ '3.1.3' ],
+121 silly audit   'lines-and-columns': [ '1.2.4' ],
+121 silly audit   'loose-envify': [ '1.4.0' ],
+121 silly audit   'lru-cache': [ '10.4.3' ],
+121 silly audit   merge2: [ '1.4.1' ],
+121 silly audit   micromatch: [ '4.0.8' ],
+121 silly audit   minimatch: [ '9.0.5' ],
+121 silly audit   minipass: [ '7.1.2' ],
+121 silly audit   mz: [ '2.7.0' ],
+121 silly audit   nanoid: [ '3.3.9' ],
+121 silly audit   next: [ '14.1.0' ],
+121 silly audit   'next-themes': [ '0.4.4' ],
+121 silly audit   postcss: [ '8.4.31', '8.5.3' ],
+121 silly audit   'node-releases': [ '2.0.19' ],
+121 silly audit   'normalize-path': [ '3.0.0' ],
+121 silly audit   'normalize-range': [ '0.1.2' ],
+121 silly audit   'object-assign': [ '4.1.1' ],
+121 silly audit   'object-hash': [ '3.0.0' ],
+121 silly audit   'package-json-from-dist': [ '1.0.1' ],
+121 silly audit   'path-key': [ '3.1.1' ],
+121 silly audit   'path-parse': [ '1.0.7' ],
+121 silly audit   'path-scurry': [ '1.11.1' ],
+121 silly audit   picocolors: [ '1.1.1' ],
+121 silly audit   picomatch: [ '2.3.1' ],
+121 silly audit   pify: [ '2.3.0' ],
+121 silly audit   pirates: [ '4.0.6' ],
+121 silly audit   'postcss-import': [ '15.1.0' ],
+121 silly audit   'postcss-js': [ '4.0.1' ],
+121 silly audit   'postcss-load-config': [ '4.0.2' ],
+121 silly audit   'postcss-nested': [ '6.2.0' ],
+121 silly audit   'postcss-selector-parser': [ '6.1.2' ],
+121 silly audit   'postcss-value-parser': [ '4.2.0' ],
+121 silly audit   'queue-microtask': [ '1.2.3' ],
+121 silly audit   react: [ '18.3.1' ],
+121 silly audit   'react-dom': [ '18.3.1' ],
+121 silly audit   'read-cache': [ '1.0.0' ],
+121 silly audit   readdirp: [ '3.6.0' ],
+121 silly audit   resolve: [ '1.22.10' ],
+121 silly audit   reusify: [ '1.1.0' ],
+121 silly audit   'run-parallel': [ '1.2.0' ],
+121 silly audit   scheduler: [ '0.23.2' ],
+121 silly audit   'shebang-command': [ '2.0.0' ],
+121 silly audit   'shebang-regex': [ '3.0.0' ],
+121 silly audit   'signal-exit': [ '4.1.0' ],
+121 silly audit   'source-map-js': [ '1.2.1' ],
+121 silly audit   streamsearch: [ '1.1.0' ],
+121 silly audit   'string-width': [ '5.1.2', '4.2.3' ],
+121 silly audit   'strip-ansi': [ '6.0.1', '7.1.0' ],
+121 silly audit   'styled-jsx': [ '5.1.1' ],
+121 silly audit   sucrase: [ '3.35.0' ],
+121 silly audit   'supports-preserve-symlinks-flag': [ '1.0.0' ],
+121 silly audit   tailwindcss: [ '3.4.17' ],
+121 silly audit   'tailwindcss-animate': [ '1.0.7' ],
+121 silly audit   thenify: [ '3.3.1' ],
+121 silly audit   'thenify-all': [ '1.6.0' ],
+121 silly audit   'to-regex-range': [ '5.0.1' ],
+121 silly audit   'ts-interface-checker': [ '0.1.13' ],
+121 silly audit   tslib: [ '2.8.1' ],
+121 silly audit   typescript: [ '5.8.2' ],
+121 silly audit   'undici-types': [ '6.19.8' ],
+121 silly audit   'update-browserslist-db': [ '1.1.3' ],
+121 silly audit   'util-deprecate': [ '1.0.2' ],
+121 silly audit   which: [ '2.0.2' ],
+121 silly audit   'wrap-ansi': [ '8.1.0', '7.0.0' ],
+121 silly audit   yaml: [ '2.7.0' ],
+121 silly audit   '@radix-ui/react-slot': [ '1.1.2' ],
+121 silly audit   'class-variance-authority': [ '0.7.1' ],
+121 silly audit   clsx: [ '2.1.1' ],
+121 silly audit   geist: [ '1.3.1' ],
+121 silly audit   'lucide-react': [ '0.479.0' ],
+121 silly audit   'react-day-picker': [ '9.5.1' ],
+121 silly audit   'tailwind-merge': [ '3.0.2' ],
+121 silly audit   '@radix-ui/react-compose-refs': [ '1.1.1' ],
+121 silly audit   '@date-fns/tz': [ '1.2.0' ],
+121 silly audit   'date-fns': [ '4.1.0' ],
+121 silly audit   'date-fns-jalali': [ '4.1.0-0' ]
+121 silly audit }
+122 verbose reify failed optional dependency C:\Users\clayc\OneDrive - Partner Chain\Documents\GitHub\FSD\node_modules\fsevents
+123 silly reify mark deleted [
+123 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\fsevents'
+123 silly reify ]
+124 verbose reify failed optional dependency C:\Users\clayc\OneDrive - Partner Chain\Documents\GitHub\FSD\node_modules\@next\swc-win32-x64-msvc
+125 silly reify mark deleted [
+125 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\@next\\swc-win32-x64-msvc'
+125 silly reify ]
+126 verbose reify failed optional dependency C:\Users\clayc\OneDrive - Partner Chain\Documents\GitHub\FSD\node_modules\@next\swc-win32-ia32-msvc
+127 silly reify mark deleted [
+127 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\@next\\swc-win32-ia32-msvc'
+127 silly reify ]
+128 verbose reify failed optional dependency C:\Users\clayc\OneDrive - Partner Chain\Documents\GitHub\FSD\node_modules\@next\swc-linux-x64-musl
+129 silly reify mark deleted [
+129 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\@next\\swc-linux-x64-musl'
+129 silly reify ]
+130 verbose reify failed optional dependency C:\Users\clayc\OneDrive - Partner Chain\Documents\GitHub\FSD\node_modules\@next\swc-linux-x64-gnu
+131 silly reify mark deleted [
+131 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\@next\\swc-linux-x64-gnu'
+131 silly reify ]
+132 verbose reify failed optional dependency C:\Users\clayc\OneDrive - Partner Chain\Documents\GitHub\FSD\node_modules\@next\swc-linux-arm64-musl
+133 silly reify mark deleted [
+133 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\@next\\swc-linux-arm64-musl'
+133 silly reify ]
+134 verbose reify failed optional dependency C:\Users\clayc\OneDrive - Partner Chain\Documents\GitHub\FSD\node_modules\@next\swc-linux-arm64-gnu
+135 silly reify mark deleted [
+135 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\@next\\swc-linux-arm64-gnu'
+135 silly reify ]
+136 verbose reify failed optional dependency C:\Users\clayc\OneDrive - Partner Chain\Documents\GitHub\FSD\node_modules\@next\swc-darwin-x64
+137 silly reify mark deleted [
+137 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\@next\\swc-darwin-x64'
+137 silly reify ]
+138 verbose reify failed optional dependency C:\Users\clayc\OneDrive - Partner Chain\Documents\GitHub\FSD\node_modules\@next\swc-darwin-arm64
+139 silly reify mark deleted [
+139 silly reify   'C:\\Users\\clayc\\OneDrive - Partner Chain\\Documents\\GitHub\\FSD\\node_modules\\@next\\swc-darwin-arm64'
+139 silly reify ]
+140 http cache date-fns-jalali@https://registry.npmjs.org/date-fns-jalali/-/date-fns-jalali-4.1.0-0.tgz 0ms (cache hit)
+141 http cache @date-fns/tz@https://registry.npmjs.org/@date-fns/tz/-/tz-1.2.0.tgz 0ms (cache hit)
+142 http cache @radix-ui/react-compose-refs@https://registry.npmjs.org/@radix-ui/react-compose-refs/-/react-compose-refs-1.1.1.tgz 0ms (cache hit)
+143 http cache react-day-picker@https://registry.npmjs.org/react-day-picker/-/react-day-picker-9.5.1.tgz 0ms (cache hit)
+144 http cache @radix-ui/react-slot@https://registry.npmjs.org/@radix-ui/react-slot/-/react-slot-1.1.2.tgz 0ms (cache hit)
+145 http cache tailwind-merge@https://registry.npmjs.org/tailwind-merge/-/tailwind-merge-3.0.2.tgz 0ms (cache hit)
+146 http cache lucide-react@https://registry.npmjs.org/lucide-react/-/lucide-react-0.479.0.tgz 0ms (cache hit)
+147 http cache clsx@https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz 0ms (cache hit)
+148 http cache @types/node@https://registry.npmjs.org/@types/node/-/node-20.17.23.tgz 0ms (cache hit)
+149 http cache class-variance-authority@https://registry.npmjs.org/class-variance-authority/-/class-variance-authority-0.7.1.tgz 0ms (cache hit)
+150 http cache @types/react-dom@https://registry.npmjs.org/@types/react-dom/-/react-dom-18.3.5.tgz 0ms (cache hit)
+151 http cache typescript@https://registry.npmjs.org/typescript/-/typescript-5.8.2.tgz 0ms (cache hit)
+152 http cache tailwindcss-animate@https://registry.npmjs.org/tailwindcss-animate/-/tailwindcss-animate-1.0.7.tgz 0ms (cache hit)
+153 http cache date-fns@https://registry.npmjs.org/date-fns/-/date-fns-4.1.0.tgz 0ms (cache hit)
+154 http cache @types/react@https://registry.npmjs.org/@types/react/-/react-18.3.18.tgz 0ms (cache hit)
+155 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.5.3.tgz 0ms (cache hit)
+156 http cache react-dom@https://registry.npmjs.org/react-dom/-/react-dom-18.3.1.tgz 1ms (cache hit)
+157 http cache tailwindcss@https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.4.17.tgz 0ms (cache hit)
+158 http cache autoprefixer@https://registry.npmjs.org/autoprefixer/-/autoprefixer-10.4.20.tgz 0ms (cache hit)
+159 http cache next@https://registry.npmjs.org/next/-/next-14.1.0.tgz 0ms (cache hit)
+160 http cache next-themes@https://registry.npmjs.org/next-themes/-/next-themes-0.4.4.tgz 0ms (cache hit)
+161 http cache react@https://registry.npmjs.org/react/-/react-18.3.1.tgz 0ms (cache hit)
+162 http cache geist@https://registry.npmjs.org/geist/-/geist-1.3.1.tgz 0ms (cache hit)
+163 silly tarball no local data for date-fns-jalali@https://registry.npmjs.org/date-fns-jalali/-/date-fns-jalali-4.1.0-0.tgz. Extracting by manifest.
+164 http cache postcss@https://registry.npmjs.org/postcss/-/postcss-8.4.31.tgz 0ms (cache hit)
+165 silly tarball no local data for @date-fns/tz@https://registry.npmjs.org/@date-fns/tz/-/tz-1.2.0.tgz. Extracting by manifest.
+166 silly tarball no local data for @radix-ui/react-compose-refs@https://registry.npmjs.org/@radix-ui/react-compose-refs/-/react-compose-refs-1.1.1.tgz. Extracting by manifest.
+167 silly tarball no local data for react-day-picker@https://registry.npmjs.org/react-day-picker/-/react-day-picker-9.5.1.tgz. Extracting by manifest.
+168 silly tarball no local data for @radix-ui/react-slot@https://registry.npmjs.org/@radix-ui/react-slot/-/react-slot-1.1.2.tgz. Extracting by manifest.
+169 silly tarball no local data for tailwind-merge@https://registry.npmjs.org/tailwind-merge/-/tailwind-merge-3.0.2.tgz. Extracting by manifest.
+170 silly tarball no local data for lucide-react@https://registry.npmjs.org/lucide-react/-/lucide-react-0.479.0.tgz. Extracting by manifest.
+171 silly tarball no local data for clsx@https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz. Extracting by manifest.
+172 silly tarball no local data for class-variance-authority@https://registry.npmjs.org/class-variance-authority/-/class-variance-authority-0.7.1.tgz. Extracting by manifest.
+173 silly tarball no local data for date-fns@https://registry.npmjs.org/date-fns/-/date-fns-4.1.0.tgz. Extracting by manifest.
+174 silly tarball no local data for geist@https://registry.npmjs.org/geist/-/geist-1.3.1.tgz. Extracting by manifest.
+175 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 744ms
+176 silly audit report {
+176 silly audit report   next: [
+176 silly audit report     {
+176 silly audit report       id: 1099638,
+176 silly audit report       url: 'https://github.com/advisories/GHSA-gp8f-8m3g-qvj9',
+176 silly audit report       title: 'Next.js Cache Poisoning',
+176 silly audit report       severity: 'high',
+176 silly audit report       vulnerable_versions: '>=14.0.0 <14.2.10',
+176 silly audit report       cwe: [Array],
+176 silly audit report       cvss: [Object]
+176 silly audit report     },
+176 silly audit report     {
+176 silly audit report       id: 1100421,
+176 silly audit report       url: 'https://github.com/advisories/GHSA-g77x-44xx-532m',
+176 silly audit report       title: 'Denial of Service condition in Next.js image optimization',
+176 silly audit report       severity: 'moderate',
+176 silly audit report       vulnerable_versions: '>=10.0.0 <14.2.7',
+176 silly audit report       cwe: [Array],
+176 silly audit report       cvss: [Object]
+176 silly audit report     },
+176 silly audit report     {
+176 silly audit report       id: 1101380,
+176 silly audit report       url: 'https://github.com/advisories/GHSA-7gfc-8cq8-jh5f',
+176 silly audit report       title: 'Next.js authorization bypass vulnerability',
+176 silly audit report       severity: 'high',
+176 silly audit report       vulnerable_versions: '>=9.5.5 <14.2.15',
+176 silly audit report       cwe: [Array],
+176 silly audit report       cvss: [Object]
+176 silly audit report     },
+176 silly audit report     {
+176 silly audit report       id: 1101438,
+176 silly audit report       url: 'https://github.com/advisories/GHSA-7m27-7ghc-44w9',
+176 silly audit report       title: 'Next.js Allows a Denial of Service (DoS) with Server Actions',
+176 silly audit report       severity: 'moderate',
+176 silly audit report       vulnerable_versions: '>=14.0.0 <14.2.21',
+176 silly audit report       cwe: [Array],
+176 silly audit report       cvss: [Object]
+176 silly audit report     },
+176 silly audit report     {
+176 silly audit report       id: 1097295,
+176 silly audit report       url: 'https://github.com/advisories/GHSA-fr5h-rqp8-mj6g',
+176 silly audit report       title: 'Next.js Server-Side Request Forgery in Server Actions',
+176 silly audit report       severity: 'high',
+176 silly audit report       vulnerable_versions: '>=13.4.0 <14.1.1',
+176 silly audit report       cwe: [Array],
+176 silly audit report       cvss: [Object]
+176 silly audit report     }
+176 silly audit report   ]
+176 silly audit report }
+177 silly packumentCache corgi:https://registry.npmjs.org/next cache-miss
+178 http fetch GET 200 https://registry.npmjs.org/@date-fns/tz/-/tz-1.2.0.tgz 788ms (cache miss)
+179 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-compose-refs/-/react-compose-refs-1.1.1.tgz 901ms (cache miss)
+180 http fetch GET 200 https://registry.npmjs.org/@radix-ui/react-slot/-/react-slot-1.1.2.tgz 947ms (cache miss)
+181 http fetch GET 200 https://registry.npmjs.org/clsx/-/clsx-2.1.1.tgz 966ms (cache miss)
+182 http fetch GET 200 https://registry.npmjs.org/class-variance-authority/-/class-variance-authority-0.7.1.tgz 999ms (cache miss)
+183 http fetch GET 200 https://registry.npmjs.org/tailwind-merge/-/tailwind-merge-3.0.2.tgz 1320ms (cache miss)
+184 http fetch GET 200 https://registry.npmjs.org/geist/-/geist-1.3.1.tgz 1667ms (cache miss)
+185 http fetch GET 200 https://registry.npmjs.org/next 1262ms (cache updated)
+186 silly packumentCache corgi:https://registry.npmjs.org/next set size:undefined disposed:false
+187 silly packumentCache corgi:https://registry.npmjs.org/geist cache-miss
+188 http fetch GET 200 https://registry.npmjs.org/geist 85ms (cache miss)
+189 silly packumentCache corgi:https://registry.npmjs.org/geist set size:undefined disposed:false
+190 http fetch GET 200 https://registry.npmjs.org/react-day-picker/-/react-day-picker-9.5.1.tgz 8671ms (cache miss)
+191 http fetch GET 200 https://registry.npmjs.org/date-fns-jalali/-/date-fns-jalali-4.1.0-0.tgz 19406ms (cache miss)
+192 http fetch GET 200 https://registry.npmjs.org/lucide-react/-/lucide-react-0.479.0.tgz 22605ms (cache miss)
+193 http fetch GET 200 https://registry.npmjs.org/date-fns/-/date-fns-4.1.0.tgz 37749ms (cache miss)
+194 silly ADD node_modules/date-fns-jalali
+195 silly ADD node_modules/date-fns
+196 silly ADD node_modules/@date-fns/tz
+197 silly ADD node_modules/@radix-ui/react-compose-refs
+198 silly ADD node_modules/tailwind-merge
+199 silly ADD node_modules/react-day-picker
+200 silly ADD node_modules/lucide-react
+201 silly ADD node_modules/clsx
+202 silly ADD node_modules/class-variance-authority
+203 silly ADD node_modules/@radix-ui/react-slot
+204 silly ADD
+205 silly ADD
+206 silly ADD
+207 silly ADD
+208 silly ADD
+209 silly ADD
+210 silly ADD
+211 silly ADD
+212 silly ADD
+213 silly CHANGE node_modules/typescript
+214 silly CHANGE node_modules/tailwindcss-animate
+215 silly CHANGE node_modules/@types/node
+216 silly CHANGE node_modules/@types/react-dom
+217 silly CHANGE node_modules/@types/react
+218 silly CHANGE node_modules/tailwindcss
+219 silly CHANGE node_modules/postcss
+220 silly CHANGE node_modules/react-dom
+221 silly CHANGE node_modules/next
+222 silly ADD node_modules/next/node_modules/postcss
+223 silly CHANGE node_modules/autoprefixer
+224 silly CHANGE node_modules/next-themes
+225 silly CHANGE node_modules/geist
+226 silly CHANGE node_modules/react
+227 silly CHANGE node_modules/photo-portfolio
+228 verbose cwd C:\Users\clayc\OneDrive - Partner Chain\Documents\GitHub\FSD
+229 verbose os Windows_NT 10.0.26100
+230 verbose node v22.14.0
+231 verbose npm  v10.9.2
+232 verbose exit 0
+233 info ok
